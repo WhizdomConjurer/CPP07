@@ -6,7 +6,7 @@
 /*   By: puzzlesanalytik <puzzlesanalytik@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/13 17:47:57 by puzzlesanal       #+#    #+#             */
-/*   Updated: 2026/06/14 11:47:12 by puzzlesanal      ###   ########.fr       */
+/*   Updated: 2026/06/14 11:49:56 by puzzlesanal      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 #define MAX_VAL 750
 int main(int, char **)
-{‚
+{
     Array<int> numbers(MAX_VAL);
     int *mirror = new int[MAX_VAL];
     srand(time(NULL));
